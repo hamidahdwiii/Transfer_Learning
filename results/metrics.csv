@@ -1,0 +1,7 @@
+model,family,config,horizon,horizon_h,MAE,RMSE,MAPE (%),Bias,Cakupan P10-P90 (%),Jumlah Titik,Jumlah Jendela,Waktu (dtk),Lebih baik dari Naive (MAPE),Lebih baik dari Naive (RMSE),Peringkat MAPE,Peringkat RMSE
+Seasonal Naive,Baseline,,24 Jam,24,54.0621,70.4403,4.7013,18.0012,,168.0000,7.0000,0.0000,0.0000,0.0000,1,1
+SARIMAX,Statistik,"SARIMAX(2, 0, 1)x(1, 1, 1, 24) exog=kalender",24 Jam,24,55.6744,72.6832,4.8166,19.2381,73.8095,168.0000,7.0000,174.8000,-2.4530,-3.1841,2,2
+SARIMAX,Statistik,"SARIMAX(2, 0, 1)x(1, 1, 1, 24) exog=kalender",168 Jam,168,54.6715,69.6603,4.9969,2.4741,75.2976,672.0000,4.0000,174.8000,19.0982,13.8806,1,1
+Seasonal Naive,Baseline,,168 Jam,168,67.8678,80.8881,6.1766,6.8186,,672.0000,4.0000,0.0000,0.0000,0.0000,2,2
+SARIMAX,Statistik,"SARIMAX(2, 0, 1)x(1, 1, 1, 24) exog=kalender",720 Jam,720,52.0406,66.8192,4.7458,0.1504,76.5278,720.0000,1.0000,174.8000,8.9961,7.7233,1,1
+Seasonal Naive,Baseline,,720 Jam,720,56.9925,72.4117,5.2149,-15.6493,,720.0000,1.0000,0.0000,0.0000,0.0000,2,2
