@@ -1,0 +1,9 @@
+gluonts[torch]<=0.14.4
+numpy>=1.23.5,<2
+torch>=2.0.0
+scipy
+pandas
+huggingface_hub
+matplotlib
+wandb
+setuptools<70
